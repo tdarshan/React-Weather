@@ -14,8 +14,6 @@ function App() {
 
   useEffect(() => {
     weather.fetchCurrentLocation();
-
-    console.log(import.meta.env.VITE_API_KEY);
   }, [])
   
 
